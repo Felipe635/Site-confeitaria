@@ -1,0 +1,156 @@
+﻿body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #4d4d4d;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.botao {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #8f3faf;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+/*navegação*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	background-color:#FFC0CB;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+header {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+}
+
+
+/*sobre*/
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px 10px;
+    background-color:#FFC0CB;
+    color: #4d4d4d;
+	margin-top:30px;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+/*bolos*/
+
+#bolos {
+    padding: 20px;
+    display: flex;
+	width:90%;
+	margin-left:5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	margin-top:50px;
+}
+
+#bolos h2 {
+	margin-bottom:50px;
+}
+
+#bolos img {
+    width: 30%;
+	 padding: 20px;
+}
+
+/*doces*/
+
+#doces {
+    padding: 20px;
+    display: flex;
+	width:90%;
+	margin-left:5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	margin-top:50px;
+}
+
+#doces h2 {
+	margin-bottom:50px;
+}
+
+#doces img {
+    width: 30%;
+	 padding: 20px;
+}
+
+/*contato*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #4d4d4d;
+	background-color:#FFC0CB;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
